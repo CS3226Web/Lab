@@ -14,6 +14,15 @@ var table = $('#ranktable').DataTable({
       wasPreviouslySumDescSorted = false;
     }
   },
+  "initComplete": function(settings, json) {
+    // apply rank number after first draw of table
+    // table should be sorted in descending order according to sum
+    $('#ranktable tbody tr').each(function() {
+      var index = $("tr").index(this);
+      var rankCell = $('td:first-child', this);
+      rankCell.html(index);
+    });
+  },
   "bPaginate": false,
   "bAutoWidth": false,
   "bFilter": false,
@@ -25,11 +34,6 @@ var table = $('#ranktable').DataTable({
   }]
 });
 
-var i = 1;
-$('#ranktable tbody tr').each(function(){
-     $(this).find('td:eq(0)').html(i);
-     i++;
-});
 function setRowHeightAccordingToSum() {
   $('#ranktable tbody tr').not(':last').each(function(){
       var currentRow = $(this);
@@ -37,7 +41,7 @@ function setRowHeightAccordingToSum() {
 
       var nextRow = currentRow.next("tr");
       var nextScore = parseFloat(nextRow.find("td:eq(12)").text());
- 
+
       var difference = currScore - nextScore;
       var newHeight = 30 + 20 * difference;
       nextRow.css('height', newHeight);

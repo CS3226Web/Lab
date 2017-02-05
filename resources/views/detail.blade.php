@@ -152,4 +152,5 @@
 		</ol>
 	<p>Specific (public) comments about this student: <b>some comments</b></p>
 </div>
+<script src="js/radarChart.js"></script>
 @stop

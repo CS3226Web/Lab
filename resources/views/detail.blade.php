@@ -144,7 +144,7 @@
 		</tbody>
 	</table>
 	<div class="row">
-	<div class="col-xs-4 col-xs-offset-4">
+	<div class="col-xs-4 col-centered">
             <canvas id="radarChart" width="300px" height="300px"></canvas>
         </div>
 	</div>

@@ -38,7 +38,7 @@ function drawLine(startX, startY, endX, endY) {
 }
 
 //Radar Chart info
-ctx.fillStyle ='#99FF99';
+ctx.fillStyle ='rgba(96,96,96,0.7)';
 ctx.beginPath();
 ctx.moveTo(100+ Math.cos(Math.PI/6)*score[0],100-Math.sin(Math.PI/6)*score[0]);
 ctx.lineTo(100,100 - score[1]);

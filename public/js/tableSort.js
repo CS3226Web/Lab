@@ -24,8 +24,12 @@ var table = $('#ranktable').DataTable({
     "orderable": false, //Disable ordering of first collumn
   }]
 });
-$("#ranktable tbody").find("tr:first").find("td:eq(0)").html("1");
-var i = 2;
+
+var i = 1;
+$('#ranktable tbody tr').each(function(){
+     $(this).find('td:eq(0)').html(i);
+     i++;
+});
 function setRowHeightAccordingToSum() {
   $('#ranktable tbody tr').not(':last').each(function(){
       var currentRow = $(this);
@@ -33,8 +37,7 @@ function setRowHeightAccordingToSum() {
 
       var nextRow = currentRow.next("tr");
       var nextScore = parseFloat(nextRow.find("td:eq(12)").text());
-      nextRow.find("td:eq(0)").html(i-48);
-    i++;
+ 
       var difference = currScore - nextScore;
       var newHeight = 30 + 20 * difference;
       nextRow.css('height', newHeight);

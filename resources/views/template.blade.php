@@ -42,6 +42,7 @@
 <script type="text/javascript" src="{{URL::asset('js/highlightRow.js')}}"></script>
 <script type="text/javascript" src="{{URL::asset('js/highlightCell.js')}}"></script>
 <script type="text/javascript" src="{{URL::asset('js/tableSort.js')}}"></script>
+<script type="text/javascript" src="{{URL::asset('js/radarChart.js')}}"></script>
 </body>
 <footer>
   <div class="container text-center">

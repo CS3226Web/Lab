@@ -21,6 +21,9 @@ ctx.fillText("Bs",100-Math.cos(Math.PI/6)*length -22,100+Math.sin(Math.PI/6)*len
 ctx.fillText("KS",100 - 10, 100 + length + 15);
 ctx.fillText("Ac",100+ Math.cos(Math.PI/6)*length + 2,100+Math.sin(Math.PI/6)*length + 2);
 drawOutline(1);
+drawOutline(0.75);
+drawOutline(0.5);
+drawOutline(0.25);
 function drawOutline(scale){
      var length = maxScore * scale;
      drawLine(100,100,100+ Math.cos(Math.PI/6)*length,100-Math.sin(Math.PI/6)*length);

@@ -143,7 +143,7 @@
 			</tr>
 		</tbody>
 	</table>
-	<div class="hidden-xs col-sm-4 pull-center">
+	<div class="hidden-xs col-sm-4 col-sm-offset-4">
             <canvas id="radarChart" width="300px" height="300px"></canvas>
         </div>
 

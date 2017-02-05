@@ -25,7 +25,7 @@
 		</div>
 	</div>
 
-	<table class = "table table-striped">
+	<table id="detail" class = "table table-striped">
 		<thead>
 			<tr>
 				<th>Component</th>
@@ -143,7 +143,7 @@
 			</tr>
 		</tbody>
 	</table>
-
+<canvas id="radarChart" width="200" height="200"></canvas>
 	<p>Achievement details:</p>
 		<ol>
 			<li>Let it begins</li>

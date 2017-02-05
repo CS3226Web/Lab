@@ -25,3 +25,11 @@
 .gold {
 	background-color: gold;
 }
+
+.flag-class {
+	width:100px; 
+	height:50px; 
+	background-size:contain; 
+	background-position:50%; 
+	background-repeat:no-repeat;
+}

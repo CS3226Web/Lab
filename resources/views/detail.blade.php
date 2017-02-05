@@ -14,9 +14,9 @@
 				<b>Sum = SPE + DIL = {{$data[$id][5]}} + {{$data[$id][10]}} = {{$data[$id][11]}} </b><br>
 			</p>
 		</div>
-		<div class="flag-icon-background flag-icon-{{strtolower($data[$id][0])}} flag-div col-xs-1"></div>
+		<div class="flag-icon-background flag-icon-{{strtolower($data[$id][0])}} flag-div col-xs-1" style="width:100px; height:50px; background-size:contain; background-position:50%; background-repeat:no-repeat;"></div>
 		<div class="col-xs-2">
-			<img src="img/winterfell.jpg" width="150px">
+			<img src="{{URL::asset('img/winterfell.jpg')}}" width="150px">
 		</div>
 	</div>
 	<div class="row">
@@ -30,18 +30,18 @@
 			<tr>
 				<th>Component</th>
 				<th>Sum</th>
-				<th>01</th>
-				<th>02</th>
-				<th>03</th>
-				<th>04</th>
-				<th>05</th>
-				<th>06</th>
-				<th>07</th>
-				<th>08</th>
-				<th>09</th>
-				<th>10</th>
-				<th>11</th>
-				<th>12</th>
+				<th class="hidden-xs hidden-sm">01</th>
+				<th class="hidden-xs hidden-sm">02</th>
+				<th class="hidden-xs hidden-sm">03</th>
+				<th class="hidden-xs hidden-sm">04</th>
+				<th class="hidden-xs hidden-sm">05</th>
+				<th class="hidden-xs hidden-sm">06</th>
+				<th class="hidden-xs hidden-sm">07</th>
+				<th class="hidden-xs hidden-sm">08</th>
+				<th class="hidden-xs hidden-sm">09</th>
+				<th class="hidden-xs hidden-sm">10</th>
+				<th class="hidden-xs hidden-sm">11</th>
+				<th class="hidden-xs hidden-sm">12</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -49,97 +49,97 @@
 				<td>Mini Contests</td>
 				<td>{{$data[$id][3]}}</td>
 				<td>{{$data[$id][3]}}</td>
-				<td>0</td>
-				<td>0</td>
-				<td>0</td>
-				<td>0</td>
-				<td>0</td>
-				<td>0</td>
-				<td>0</td>
-				<td>0</td>
-				<td>0</td>
-				<td>0</td>
-				<td>0</td>
+				<td class="hidden-xs hidden-sm">0</td>
+				<td class="hidden-xs hidden-sm">0</td>
+				<td class="hidden-xs hidden-sm">0</td>
+				<td class="hidden-xs hidden-sm">0</td>
+				<td class="hidden-xs hidden-sm">0</td>
+				<td class="hidden-xs hidden-sm">0</td>
+				<td class="hidden-xs hidden-sm">0</td>
+				<td class="hidden-xs hidden-sm">0</td>
+				<td class="hidden-xs hidden-sm">0</td>
+				<td class="hidden-xs hidden-sm">0</td>
+				<td class="hidden-xs hidden-sm">0</td>
 			</tr>
 			<tr>
 				<td>Team Contests</td>
 				<td>{{$data[$id][4]}}</td>
 				<td>{{$data[$id][4]}}</td>
-				<td>0</td>
-				<td>0</td>
-				<td>0</td>
-				<td>0</td>
-				<td>0</td>
-				<td>0</td>
-				<td>0</td>
-				<td>0</td>
-				<td>0</td>
-				<td>0</td>
-				<td>0</td>
+				<td class="hidden-xs hidden-sm">0</td>
+				<td class="hidden-xs hidden-sm">0</td>
+				<td class="hidden-xs hidden-sm">0</td>
+				<td class="hidden-xs hidden-sm">0</td>
+				<td class="hidden-xs hidden-sm">0</td>
+				<td class="hidden-xs hidden-sm">0</td>
+				<td class="hidden-xs hidden-sm">0</td>
+				<td class="hidden-xs hidden-sm">0</td>
+				<td class="hidden-xs hidden-sm">0</td>
+				<td class="hidden-xs hidden-sm">0</td>
+				<td class="hidden-xs hidden-sm">0</td>
 			</tr>
 			<tr>
 				<td>Homework</td>
 				<td>{{$data[$id][6]}}</td>
 				<td>{{$data[$id][6]}}</td>
-				<td>0</td>
-				<td>0</td>
-				<td>0</td>
-				<td>0</td>
-				<td>0</td>
-				<td>0</td>
-				<td>0</td>
-				<td>0</td>
-				<td>0</td>
-				<td>0</td>
-				<td>0</td>
+				<td class="hidden-xs hidden-sm">0</td>
+				<td class="hidden-xs hidden-sm">0</td>
+				<td class="hidden-xs hidden-sm">0</td>
+				<td class="hidden-xs hidden-sm">0</td>
+				<td class="hidden-xs hidden-sm">0</td>
+				<td class="hidden-xs hidden-sm">0</td>
+				<td class="hidden-xs hidden-sm">0</td>
+				<td class="hidden-xs hidden-sm">0</td>
+				<td class="hidden-xs hidden-sm">0</td>
+				<td class="hidden-xs hidden-sm">0</td>
+				<td class="hidden-xs hidden-sm">0</td>
 			</tr>
 			<tr>
 				<td>Problem Bs</td>
 				<td>{{$data[$id][7]}}</td>
 				<td>{{$data[$id][7]}}</td>
-				<td>0</td>
-				<td>0</td>
-				<td>0</td>
-				<td>0</td>
-				<td>0</td>
-				<td>0</td>
-				<td>0</td>
-				<td>0</td>
-				<td>0</td>
-				<td>0</td>
-				<td>0</td>
+			<td class="hidden-xs hidden-sm">0</td>
+				<td class="hidden-xs hidden-sm">0</td>
+				<td class="hidden-xs hidden-sm">0</td>
+				<td class="hidden-xs hidden-sm">0</td>
+				<td class="hidden-xs hidden-sm">0</td>
+				<td class="hidden-xs hidden-sm">0</td>
+				<td class="hidden-xs hidden-sm">0</td>
+				<td class="hidden-xs hidden-sm">0</td>
+				<td class="hidden-xs hidden-sm">0</td>
+				<td class="hidden-xs hidden-sm">0</td>
+				<td class="hidden-xs hidden-sm">0</td>
 			</tr>
 			<tr>
 				<td>Kattie Sets</td>
 				<td>{{$data[$id][8]}}</td>
 				<td>{{$data[$id][8]}}</td>
-				<td>0</td>
-				<td>0</td>
-				<td>0</td>
-				<td>0</td>
-				<td>0</td>
-				<td>0</td>
-				<td>0</td>
-				<td>0</td>
-				<td>0</td>
-				<td>0</td>
-				<td>0</td>
+				<td class="hidden-xs hidden-sm">0</td>
+				<td class="hidden-xs hidden-sm">0</td>
+				<td class="hidden-xs hidden-sm">0</td>
+				<td class="hidden-xs hidden-sm">0</td>
+				<td class="hidden-xs hidden-sm">0</td>
+				<td class="hidden-xs hidden-sm">0</td>
+				<td class="hidden-xs hidden-sm">0</td>
+				<td class="hidden-xs hidden-sm">0</td>
+				<td class="hidden-xs hidden-sm">0</td>
+				<td class="hidden-xs hidden-sm">0</td>
+				<td class="hidden-xs hidden-sm">0</td>
 			</tr>
 			<tr>
 				<td>Achievements</td>
 				<td>{{$data[$id][9]}}</td>
 				<td>{{$data[$id][9]}}</td>
-				<td>0</td>
-				<td>0</td>
-				<td>0</td>
-				<td>0</td>
-				<td>0</td>
-				<td>0</td>
-				<td>0</td>
-				<td>0</td>
-				<td>0</td>
-				<td>0</td>
-				<td>0</td>
+				<td class="hidden-xs hidden-sm">0</td>
+				<td class="hidden-xs hidden-sm">0</td>
+				<td class="hidden-xs hidden-sm">0</td>
+				<td class="hidden-xs hidden-sm">0</td>
+				<td class="hidden-xs hidden-sm">0</td>
+				<td class="hidden-xs hidden-sm">0</td>
+				<td class="hidden-xs hidden-sm">0</td>
+				<td class="hidden-xs hidden-sm">0</td>
+				<td class="hidden-xs hidden-sm">0</td>
+				<td class="hidden-xs hidden-sm">0</td>
+				<td class="hidden-xs hidden-sm">0</td>
 			</tr>
 		</tbody>
 	</table>

@@ -143,7 +143,10 @@
 			</tr>
 		</tbody>
 	</table>
-<canvas id="radarChart" width="200" height="200"></canvas>
+	<div class="hidden-xs col-sm-4 pull-center">
+            <canvas id="radarChart" width="300px" height="300px"></canvas>
+        </div>
+
 	<p>Achievement details:</p>
 		<ol>
 			<li>Let it begins</li>

@@ -48,7 +48,7 @@
 			<tr>
 				<td>Mini Contests</td>
 				<td>{{$data[$id][3]}}</td>
-				<td>{{$data[$id][3]}}</td>
+				<td class="hidden-xs hidden-sm>{{$data[$id][3]}}</td>
 				<td class="hidden-xs hidden-sm">0</td>
 				<td class="hidden-xs hidden-sm">0</td>
 				<td class="hidden-xs hidden-sm">0</td>
@@ -64,7 +64,7 @@
 			<tr>
 				<td>Team Contests</td>
 				<td>{{$data[$id][4]}}</td>
-				<td>{{$data[$id][4]}}</td>
+				<td class="hidden-xs hidden-sm>{{$data[$id][4]}}</td>
 				<td class="hidden-xs hidden-sm">0</td>
 				<td class="hidden-xs hidden-sm">0</td>
 				<td class="hidden-xs hidden-sm">0</td>
@@ -80,7 +80,7 @@
 			<tr>
 				<td>Homework</td>
 				<td>{{$data[$id][6]}}</td>
-				<td>{{$data[$id][6]}}</td>
+				<td class="hidden-xs hidden-sm>{{$data[$id][6]}}</td>
 				<td class="hidden-xs hidden-sm">0</td>
 				<td class="hidden-xs hidden-sm">0</td>
 				<td class="hidden-xs hidden-sm">0</td>
@@ -96,7 +96,7 @@
 			<tr>
 				<td>Problem Bs</td>
 				<td>{{$data[$id][7]}}</td>
-				<td>{{$data[$id][7]}}</td>
+				<td class="hidden-xs hidden-sm>{{$data[$id][7]}}</td>
 			<td class="hidden-xs hidden-sm">0</td>
 				<td class="hidden-xs hidden-sm">0</td>
 				<td class="hidden-xs hidden-sm">0</td>
@@ -112,7 +112,7 @@
 			<tr>
 				<td>Kattie Sets</td>
 				<td>{{$data[$id][8]}}</td>
-				<td>{{$data[$id][8]}}</td>
+				<td class="hidden-xs hidden-sm>{{$data[$id][8]}}</td>
 				<td class="hidden-xs hidden-sm">0</td>
 				<td class="hidden-xs hidden-sm">0</td>
 				<td class="hidden-xs hidden-sm">0</td>
@@ -128,7 +128,7 @@
 			<tr>
 				<td>Achievements</td>
 				<td>{{$data[$id][9]}}</td>
-				<td>{{$data[$id][9]}}</td>
+				<td class="hidden-xs hidden-sm>{{$data[$id][9]}}</td>
 				<td class="hidden-xs hidden-sm">0</td>
 				<td class="hidden-xs hidden-sm">0</td>
 				<td class="hidden-xs hidden-sm">0</td>

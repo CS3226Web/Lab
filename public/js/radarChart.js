@@ -8,7 +8,7 @@ var length = maxScore; //max point
 
 $('#detail tbody tr').each(function(){
      var currentRow = $(this);
-     var currScore = (length/9) * parseFloat(currentRow.find("td:eq(2)").text());
+     var currScore = (length/9) * parseFloat(currentRow.find("td:eq(1)").text());
      score.push(currScore);
 });
 
